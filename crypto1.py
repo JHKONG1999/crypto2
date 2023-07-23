@@ -78,7 +78,7 @@ selected =option_menu(
 st.write("""
 # **CRYPTOJACKING DETECTION SYSTEM**
 **INTRODUCTION:**
-* This app predicts the **CRYPTOJACKING** species!
+* This intelligent system predicts the existing and new CRYPTOJACKING malware!
 """)
 
 #----SIDEBAR-----
@@ -109,7 +109,7 @@ input_df = user_input_features()
 #---FOOTER OF THE SIDEBAR---
 st.sidebar.markdown('''
 ---
-Created by **Kong Jun Hao** associated with [Universiti Malaysia Pahang (UMP)](https://www.ump.edu.my/en).
+This work is funded by [Universiti Malaysia Pahang (UMP)](https://www.ump.edu.my/en) with grant number PDU223209.
 ''')
 
 
@@ -177,8 +177,8 @@ if selected =="Predicts":
 
   st.write("##")
   st.write("**The result :**")
-  st.write("1 indicates **THE DEVICES IS SAFE** !")
-  st.write("0 indicates **THE DEVICES IS HIJACKED** !")
+  st.write("1 indicates as **NORMAL ACTIVITY** !")
+  st.write("0 indicates as **CRYPTOJACKING ACTIVITY DETECTED** !")
   st.write("##")
 
 
